@@ -11,3 +11,114 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hover-effect {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hover-effect:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.shadowed {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.muscle-groups-container {
+  border: 3px solid #ddd; /* Border color */
+  padding: 20px; /* Padding around the container */
+  background-color: #f9f9f9; /* Background color */
+  border-radius: 10px; /* Optional: Rounded corners */
+  height: 500px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.muscle-group-label {
+  font-family: "Arial Black";
+  user-select: none;
+}
+
+.card-column {
+  height: 340px;
+}
+
+.voice-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #8d8888;
+  border-radius: 50%; /* Make it a circle */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.voice-button.active {
+  background-color: #e74c3c;
+}
+
+.voice-button i {
+  color: white;
+}
+
+.voice-button .fa-microphone  {
+  font-size: 24px; /* Adjust the size as needed */
+  color: white;
+}
+
+.voice-button:hover .fa-microphone {
+  transform: scale(1.2); /* Scale the icon on hover (adjust the scale factor as needed) */
+}
+
+.fa-stop {
+  font-size: 24px;
+}
+
+.exercises-container {
+  border: 3px solid #ddd; /* Border color */
+  padding: 20px; /* Padding around the container */
+  background-color: #f9f9f9; /* Background color */
+  border-radius: 10px; /* Optional: Rounded corners */
+  height: 550px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+  user-select: none;
+}
+
+.exercise-card-container {
+  overflow-y: auto;
+  height: 470px;
+}
+
+.card-title {
+  font-family: "Impact";
+}
+
+.exercise-card {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+  font-family: Tahoma;
+}
+
+.modal-title {
+  font-family: "Impact";
+  margin: 20px;
+
+}
+
+.modal-body {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-item-text {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
